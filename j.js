@@ -12,4 +12,5 @@ const response = await fetch(apiUrl);
    console.log(res);
    outputElement.innerHTML=res.fact;
    }
+   getresponse();
 });
